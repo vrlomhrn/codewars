@@ -1,0 +1,1 @@
+const points=c=>{let b=0;for(let d of c){let a=d.split(":");Number(a[0])>Number(a[1])?b+=3:Number(a[0])==Number(a[1])&&(b+=1)}return b}
